@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Application Web – Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Mini-Application Web – Calculatrice Dynamique</h1>
+</header>
+
+<main>
+    <section class="card">
+        <h2>Calculatrice</h2>
+
+        <form id="calc-form">
+            <div class="input-group">
+                <label>Nombre A :</label>
+                <input type="number" id="numberA">
+            </div>
+
+            <div class="input-group">
+                <label>Nombre B :</label>
+                <input type="number" id="numberB">
+            </div>
+
+            <div class="input-group">
+                <label>Opération :</label>
+                <select id="operation">
+                    <option value="+">Addition (+)</option>
+                    <option value="-">Soustraction (-)</option>
+                    <option value="*">Multiplication (×)</option>
+                    <option value="/">Division (÷)</option>
+                </select>
+            </div>
+
+            <button type="submit">Calculer</button>
+
+            <p id="error-message"></p>
+        </form>
+    </section>
+
+    <section id="history" class="card">
+        <h2>Historique des opérations</h2>
+        <ul id="history-list"></ul>
+    </section>
+
+    <a href="info.php" class="php-link">Voir la page PHP</a>
+
+</main>
+
+<footer>
+    <p>TP6 – Mini APP Web</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
