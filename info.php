@@ -1,6 +1,6 @@
 <?php
-$etablissement = "Université Privée de Marrakech";
-$module = "Développement Web";
+$etablissement = "FSSM,Université Cady Ayyad Marrakech";
+$module = "Programation Web 2";
 $annee = 2025;
 
 $a = 10;
